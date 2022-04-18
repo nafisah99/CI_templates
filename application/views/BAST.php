@@ -208,35 +208,34 @@
             berikut :</p>
         <table id="f_themes">
             <thead>
-                <th>No</th>
-                <th>Nama Barang / Jasa</th>
-                <th>Jumlah Dipesan</th>
-                <th>Harga Satuan (Rp)</th>
-                <th>Jumlah Diterima</th>
-                <th>Jumlah Rusak</th>
-                <th>Jumlah Sesuai</th>
-                <th>Total (Rp)</th>
+                <tr>
+                    <th>No</th>
+                    <th>Nama Barang / Jasa</th>
+                    <th>Jumlah Dipesan</th>
+                    <th>Harga Satuan (Rp)</th>
+                    <th>Jumlah Diterima</th>
+                    <th>Jumlah Rusak</th>
+                    <th>Jumlah Sesuai</th>
+                    <th>Total (Rp)</th>
+                </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td rowspan="3">1</td>
-                    <td style="border-bottom:none; padding-bottom:10px;">LEMARI BUKU 2 SISI / PERPUSTAKAAN</td>
-                    <!-- Kemungkinan Isi Content Title -->
-                    <td rowspan="3">1</td>
-                    <td rowspan="3">2.160.000</td>
-                    <td rowspan="3">1</td>
-                    <td rowspan="3">0</td>
-                    <td rowspan="3">1</td>
-                    <td rowspan="3">2.160.000</td>
-                </tr>
-                <tr>
-                    <!-- Kemungkinan Isi Content Category -->
-                    <td style="border-top:none; border-bottom:none;">Barang Umum > Kebutuhan sekolah >
-                        Kebutuhan Kantor >
-                        Set Meja & Kursi</td>
-                </tr>
-                <tr>
-                    <td style="border-top:none;">Barang Tidak Kena PPN</td>
+                    <td>1</td>
+                    <td>
+                        <!-- Title -->
+                        LEMARI BUKU 2 SISI / PERPUSTAKAAN <br>
+                        <!-- Category -->
+                        Barang Umum > Kebutuhan sekolah > Kebutuhan Kantor > Set Meja & Kursi <br>
+                        <!-- PPN -->
+                        Barang Tidak Kena PPN
+                    </td>
+                    <td>1</td>
+                    <td>2.160.000</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>2.160.000</td>
                 </tr>
             </tbody>
         </table>
