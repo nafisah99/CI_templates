@@ -5,24 +5,26 @@
     <meta charset="utf-8">
     <style>
     @page {
-        size: A4;
-        margin-top: 0;
-        margin-right: 30px;
+        margin-top: 0px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
     }
 
     body {
-        font-size: 14px;
-        line-height: 24px;
-        font-family: "arial", "arial", Arial;
-        color: black;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 2cm;
+        font-size: 11px;
+        line-height: 20px;
+        font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+        color: #555;
     }
 
     #f_themes {
         font-family: Arial;
         border-collapse: collapse;
         width: 100%;
-        margin: 0 0 0 0;
-        padding: 0 0 0 0;
     }
 
     #no_border {
@@ -67,15 +69,13 @@
     #f_themes th,
     .colour {
         padding-top: 12px;
-        /* background-color: #e2efda;
-        color: #215e0c; */
         margin: 0 0 0 0;
         padding: 0 0 0 0;
     }
 
     #no_kwitansi {
         text-align: left;
-        font-size: 12px;
+        font-size: 11px;
     }
 
     #f_txt {
@@ -91,16 +91,16 @@
         <table id="no_border" class="">
             <thead>
                 <tr>
-                    <td colspan="2">
+                    <td colspan="2" style="width:700px;">
                         <h2 class="titles" style="padding-right:200px">Kwitansi Pembayaran</h2>
                     </td>
-                    <td colspan="3" id="no_kwitansi" style="padding-top: 20px;">
+                    <td colspan="3" id="no_kwitansi" style="padding-top: 20px; width:300px;">
                         <b>Nomor Kwitansi</b><br>
                         BLI-SIPLah-S10000854470-1 <br>
                     </td>
                 </tr>
                 <tr>
-                    <td colspan="5" style="padding-top:20px">PT. LUMBUNG AMANAH SOLUSI <br>
+                    <td colspan="5" style="padding-top:20px; padding-bottom:20px">PT. LUMBUNG AMANAH SOLUSI <br>
                         Jl. Manunggal Pratama No. 8 <br>
                         085966656356</td>
                 </tr>
